@@ -41,8 +41,7 @@ namespace SeleniumWebAutomation
             new WebDriverWait(
                     driver, TimeSpan.FromSeconds(SeleniumConstants.WaitTimeoutSeconds))
                 .Until(webDriver => webDriver.FindElement(By.Id(resultCssId)).Displayed);
-            var result = driver.FindElement(By.Id(resultCssId)).GetAttribute("textContent");
-            return result;
+            return driver.FindElement(By.Id(resultCssId)).GetAttribute("textContent");
         }
 
         private static string ResultCheckerRegex(string expected)
