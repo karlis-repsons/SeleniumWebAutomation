@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "SeleniumWebAutomation": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "Key": "Value",
+        "PATH": "../../.."
+      }
+    }
+  }
+}
