@@ -3,8 +3,7 @@
     "SeleniumWebAutomation": {
       "commandName": "Project",
       "environmentVariables": {
-        "Key": "Value",
-        "PATH": "../../.."
+        "Key": "Value"
       }
     }
   }
